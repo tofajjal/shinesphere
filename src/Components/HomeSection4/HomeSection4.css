@@ -1,0 +1,58 @@
+.HomeSection4{overflow: hidden;}
+.HomeSection4 img{max-width: 100%;}
+.HomeSection4{padding:80px; padding-bottom:80px;}
+.HomeSection4 h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+}
+.HomeSection4 h2, .HomeSection4 span{margin-left: -100px;}
+.contact_btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 25px 10px 35px;
+    border: 1px solid #000;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+  }
+  
+  .contact_btn:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+  }
+  
+  .contact_btn svg {
+    font-size: 1.8rem;
+    transition: transform 0.3s ease;
+}
+.contact_btn:hover svg {
+  transform: translateX(4px);
+}
+  
+  .contact_btn:hover::after {
+    transform: translateX(5px);
+  }
+  .HomeSection4_right_desc{padding-left: 30px;}
+  .HomeSection4_right_desc span{color: #C38E30;}
+
+  @media (max-width: 768px) {
+    .HomeSection4{padding-bottom:50px;}
+    .HomeSection4 h2, .HomeSection4 span{margin-left:0;}
+    .HomeSection4_right_desc{margin-top:30px;}
+    .HomeSection4_right_desc{padding-left: 0;}
+    .HomeSection4 h2{font-size: 32px; line-height: 36px;margin-bottom: 20px;}
+  }
+  
+  

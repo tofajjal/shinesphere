@@ -1,0 +1,53 @@
+
+.TraditionSection {
+    background-image: url("/images/TraditionSection_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem 0;
+    text-align: center;
+    color: #fff;
+  }
+  .TraditionSection h2{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 69px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C38E30;
+  }
+  .TraditionSection p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    max-width: 800px;
+    margin: 30px auto;
+  }
+  .TraditionSection .shop-now-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    font-weight: 300;
+  }
+  
+  .shop-now-btn svg {
+    font-size: 1.8rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .shop-now-btn:hover svg {
+    transform: translateX(4px);
+  }
+
+  @media (max-width: 768px) {
+    .TraditionSection h2{font-size: 36px;line-height: 50px;}
+    .TraditionSection p{font-size: 16px;line-height: 26px;}
+    .TraditionSection{    background-position: -420px 0;}
+  }
